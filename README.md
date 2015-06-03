@@ -19,17 +19,18 @@ make js.image
 
 ## Examples
 
-- js
+### js
+
   1. [js.hello_world](js/hello_world)
   2. [js.image](js/image)
   3. [js.fitted_image](js/fitted_image)
   4. [js.cropped_image](js/cropped_image)
 
- -openfl
+### openfl
+
   1. [basics.display.words.Text](openfl/src/basics/display/words)
   2. [basics.display.images.Images](openfl/src/basics/display/images)
   3. [basics.display.images.Fitted](openfl/src/basics/display/images)
   4. [basics.display.images.Cropped](openfl/src/basics/display/images)
   5. [basics.display.formatting.Size](openfl/src/basics/display/formatting)
   6. [basics.display.formatting.Opacity](openfl/src/basics/display/formatting)
-  
