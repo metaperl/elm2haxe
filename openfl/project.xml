@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!-- NMML reference: https://gist.github.com/1763850 -->
+	
+	<!-- metadata, make sure 'package' is at least 3 segments (ie. com.mycompany.myproject) -->
+	<meta title="elm2haxe" package="io.github.elm2haxe" version="1.0.0" company="elm2haxe" />
+	
+	<!-- output -->
+	<app main="Main" file="elm2haxe" path="bin" />
+	
+	<window background="#ffffff" fps="60" />
+	<window width="800" height="600" unless="mobile || web" />
+	<window fullscreen="true" if="web" />
+	<window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
+	
+	<!-- classpath, haxe libs -->
+	<source path="src" />
+	<haxelib name="openfl" />
+	<!-- <haxelib name="actuate" /> -->
+	
+	<haxedef name="webgl" if="html5" />
+	
+	<!-- assets -->
+	<icon path="assets/openfl.svg" />
+	<assets path="assets" />
+	
+	<!-- optimize output
+	<haxeflag name="-dce full" /> -->
+	
+</project>
