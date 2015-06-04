@@ -1,0 +1,14 @@
+The [Elm 2 Haxe Project](https://github.com/metaperl/elm2haxe)
+received [a healthy pull
+request](https://github.com/metaperl/elm2haxe/pull/3) from [Domagoj
+Štrekelj](https://github.com/dstrekelj).
+
+I am very appreciative and eager for more pull requests as we make our
+way through [the Elm instructional
+examples](http://elm-lang.org/Examples.elm).
+
+Of course, this project won't be over until we render the entire
+Website in Haxe as well, because Elm did that also.
+
+Related posts:
+* http://redd.it/375v0w
