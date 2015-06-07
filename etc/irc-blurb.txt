@@ -1,0 +1,8 @@
+The goal of the [Elm2Haxe
+Project](https://github.com/metaperl/elm2haxe) is to implement all of
+[The Elm Language tutorial exmaples](http://elm-lang.org/Examples.elm)
+in Haxe OpenFL.
+
+Would anyone care to submit pull requests for Layout, Positioning, 2D
+Shapes and 2D Fills in [the Elm Language Examples basics
+section](http://elm-lang.org/Examples.elm#basics)
